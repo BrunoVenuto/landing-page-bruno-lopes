@@ -20,7 +20,7 @@ export const SkillsSection: React.FC = () => {
   }, []);
 
   return (
-    <section className="py-24 px-4 relative bg-[#020205] border-t border-[#00f5ff]/20">
+    <section className="py-16 md:py-24 px-4 relative bg-[#020205] border-t border-[#00f5ff]/20">
       {/* HUD Accents */}
       <div className="absolute top-0 left-10 w-px h-full bg-gradient-to-b from-[#00f5ff]/50 via-transparent to-transparent"></div>
       <div className="absolute top-0 right-10 w-px h-full bg-gradient-to-b from-[#ff00ff]/50 via-transparent to-transparent"></div>
@@ -32,7 +32,7 @@ export const SkillsSection: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="mb-16 border-l-4 border-[#00f5ff] pl-6"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-white uppercase tracking-wider font-orbitron">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white uppercase tracking-wider font-orbitron">
             <span className="text-[#00f5ff] mr-2">01.</span> SISTEMAS_NUCLEARES
           </h2>
           <p className="text-gray-400 mt-2 font-mono text-sm max-w-xl">

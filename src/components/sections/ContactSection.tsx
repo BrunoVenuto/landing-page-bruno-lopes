@@ -34,7 +34,7 @@ export const ContactSection: React.FC = () => {
   };
 
   return (
-    <section className="py-24 px-4 relative bg-[#020205] border-t border-[#ff00ff]/20 overflow-hidden">
+    <section className="py-16 md:py-24 px-4 relative bg-[#020205] border-t border-[#ff00ff]/20 overflow-hidden">
       {/* Background Decor */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-4xl h-full opacity-5 pointer-events-none">
         <Fingerprint className="w-full h-full text-[#ff00ff]" />
@@ -47,7 +47,7 @@ export const ContactSection: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-white uppercase tracking-wider font-orbitron mb-4">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white uppercase tracking-wider font-orbitron mb-4">
             <span className="text-[#00f5ff]">03.</span> INICIAR_CONTATO
           </h2>
           <p className="text-[#ff00ff] font-mono animate-pulse">
@@ -64,7 +64,7 @@ export const ContactSection: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="lg:col-span-3 cyber-terminal p-1 font-mono"
           >
-            <div className="bg-[#050510] h-full p-8 border border-gray-800">
+            <div className="bg-[#050510] h-full p-4 sm:p-8 border border-gray-800">
               <div className="flex items-center gap-2 mb-8 border-b border-gray-800 pb-4">
                 <Terminal className="w-5 h-5 text-[#00f5ff]" />
                 <span className="text-gray-400 text-sm">root@node-01:~# ./transmitir_msg.sh</span>

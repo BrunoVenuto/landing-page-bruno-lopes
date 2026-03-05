@@ -73,7 +73,7 @@ export const ProjectsSection: React.FC = () => {
   ];
 
   return (
-    <section className="py-24 px-4 relative bg-[#050510]">
+    <section className="py-16 md:py-24 px-4 relative bg-[#050510]">
       {/* Background Matrix Effect */}
       <div className="absolute inset-0 matrix-bg pointer-events-none opacity-50"></div>
 
@@ -84,7 +84,7 @@ export const ProjectsSection: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="mb-16 border-r-4 border-[#ff00ff] pr-6 text-right"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-white uppercase tracking-wider font-orbitron">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white uppercase tracking-wider font-orbitron">
             <span className="text-[#ff00ff] mr-2">02.</span> PROTOCOLOS_ATIVOS
           </h2>
           <p className="text-gray-400 mt-2 font-mono text-sm max-w-xl ml-auto">
@@ -100,7 +100,7 @@ export const ProjectsSection: React.FC = () => {
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, delay: index * 0.15 }}
-              className="cyber-terminal p-8 group hover:-translate-y-2 transition-transform duration-300"
+              className="cyber-terminal p-6 sm:p-8 group hover:-translate-y-2 transition-transform duration-300"
             >
               {/* Terminal Header */}
               <div className="flex justify-between items-start mb-6 border-b border-[#00f5ff]/20 pb-4">

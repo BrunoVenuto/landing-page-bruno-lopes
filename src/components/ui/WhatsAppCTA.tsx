@@ -14,7 +14,7 @@ export const WhatsAppCTA: React.FC = () => {
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 1 }}
-            className="fixed bottom-6 right-6 z-50 flex items-center group cursor-pointer"
+            className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 flex items-center group cursor-pointer"
         >
             <a
                 href={whatsappUrl}
@@ -30,7 +30,7 @@ export const WhatsAppCTA: React.FC = () => {
                 </div>
 
                 {/* Pulse Effect Container */}
-                <div className="relative w-14 h-14">
+                <div className="relative w-12 h-12 sm:w-14 sm:h-14">
                     <div className="absolute inset-0 bg-[#00f5ff] rounded-none opacity-20 blur-xl animate-pulse"></div>
 
                     {/* Main Button */}
@@ -39,7 +39,7 @@ export const WhatsAppCTA: React.FC = () => {
                         <div className="absolute top-0 left-0 w-2 h-2 border-t border-l border-[#ff00ff]"></div>
                         <div className="absolute bottom-0 right-0 w-2 h-2 border-b border-r border-[#ff00ff]"></div>
 
-                        <FaWhatsapp className="w-6 h-6 text-[#00f5ff] group-hover:text-white transition-colors" />
+                        <FaWhatsapp className="w-5 h-5 sm:w-6 sm:h-6 text-[#00f5ff] group-hover:text-white transition-colors" />
                     </div>
                 </div>
             </a>
