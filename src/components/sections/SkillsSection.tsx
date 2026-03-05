@@ -32,8 +32,8 @@ export const SkillsSection: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="mb-16 border-l-4 border-[#00f5ff] pl-6"
         >
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white uppercase tracking-wider font-orbitron">
-            <span className="text-[#00f5ff] mr-2">01.</span> SISTEMAS_NUCLEARES
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-white uppercase tracking-wider font-orbitron">
+            <span className="text-[#00f5ff] mr-2">01.</span> <span className="whitespace-nowrap">SISTEMAS_NUCLEARES</span>
           </h2>
           <p className="text-gray-400 mt-2 font-mono text-sm max-w-xl">
             &gt; Analisando capacidades técnicas e conexões neurais... <br />

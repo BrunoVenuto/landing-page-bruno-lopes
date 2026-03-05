@@ -84,8 +84,8 @@ export const ProjectsSection: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="mb-16 border-r-4 border-[#ff00ff] pr-6 text-right"
         >
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white uppercase tracking-wider font-orbitron">
-            <span className="text-[#ff00ff] mr-2">02.</span> PROTOCOLOS_ATIVOS
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-white uppercase tracking-wider font-orbitron">
+            <span className="text-[#ff00ff] mr-2">02.</span> <span className="whitespace-nowrap">PROTOCOLOS_ATIVOS</span>
           </h2>
           <p className="text-gray-400 mt-2 font-mono text-sm max-w-xl ml-auto">
             &gt; Acessando arquivos de projetos seguros... <br />

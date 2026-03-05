@@ -47,8 +47,8 @@ export const ContactSection: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white uppercase tracking-wider font-orbitron mb-4">
-            <span className="text-[#00f5ff]">03.</span> INICIAR_CONTATO
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-white uppercase tracking-wider font-orbitron mb-4">
+            <span className="text-[#00f5ff] mr-2">03.</span> <span className="whitespace-nowrap">INICIAR_CONTATO</span>
           </h2>
           <p className="text-[#ff00ff] font-mono animate-pulse">
             &lt; CANAL_COM_ABERTO /&gt;

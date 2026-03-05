@@ -11,10 +11,10 @@ export const WhatsAppCTA: React.FC = () => {
 
     return (
         <motion.div
-            initial={{ opacity: 0, scale: 0 }}
+            initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 1 }}
-            className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 flex items-center group cursor-pointer"
+            transition={{ duration: 0.5, delay: 0.5 }}
+            className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-[100] flex items-center group cursor-pointer"
         >
             <a
                 href={whatsappUrl}
